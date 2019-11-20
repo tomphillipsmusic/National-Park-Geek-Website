@@ -1,0 +1,150 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: #EBF7E3;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+	margin: 15px;
+}
+
+form, #reccomendation {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	text-align: left;
+	border: solid 1px black;
+	background-color: #92D562;
+	box-shadow: 5px 10px #888888;
+}
+
+div.form {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+.submit-btn {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	text-decoration: underline;
+	margin: 10px;
+	padding: 10px;
+	color: darkbrown;
+}
+
+.center {
+	padding: 144px 0;
+	text-align: center;
+	border: solid 1px black;
+	background-color: #92D562;
+	border-radius: 10px;
+}
+
+#backgroundpicture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+	border-radius: 50%;
+}
+
+.quotebox {
+	font-style: italic;
+	border: 1px solid black;
+	padding: 10px;
+	box-shadow: 5px 10px #888888;
+	background-color: #92D562;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.quotesource {
+	text-align: right;
+}
+
+#weatherTodayImg {
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+
+#weatherTodayInfo {
+	text-align: center;
+}	
+
+.temperatureHot{
+	border: 1px solid red;
+	background-color: red;
+	color: white;
+	
+}
+
+.temperatureCold{
+	border: 1px solid blue;
+	background-color: blue;
+	color: white;
+	
+}
+
+#fourDayForecastPhoto {
+	width: 80%;
+	height: auto;
+}
+
+.fourDayForecast {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#logo-img:hover {
+        -webkit-animation: rotation 1s  linear;
+}
+
+@-webkit-keyframes rotation {
+        from {
+                -webkit-transform: rotate(0deg);
+        }
+        to {
+                -webkit-transform: rotate(-360deg);
+                        transform: rotateY(360deg);
+        }
+}
+
+iframe {
+		box-shadow: 5px 10px #888888;
+}
+
+.results-text-gold {
+	border-radius: 10%;
+	background-color: gold;
+	color: grey;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 16pt;
+}
+
+.results-text-silver {
+	border-radius: 15%;
+	background-color: silver;
+	color: green;
+	font-family: 'Press Start 2P', cursive;
+	
+}
+
+#results-img {
+	height:100%;
+	width: auto;
+}
+
+.errors {
+	color: red;
+}
+
